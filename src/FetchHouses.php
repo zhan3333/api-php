@@ -180,7 +180,7 @@ class FetchHouses {
 	 * @return mixed
 	 * @throws Exception
 	 */
-	protected function getResult(){
+	public function getResult(){
 		$data = $this->result;
 
 		if (empty($data)){
